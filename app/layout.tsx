@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Tahitian Noni Juice",
   description: "Daily wellness made simple",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
