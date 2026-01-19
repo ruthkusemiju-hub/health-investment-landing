@@ -4,19 +4,18 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
 
-      {/* HERO — mirrors Supliful hero */}
+      {/* HERO */}
       <section className="px-4 py-16 md:px-6 md:py-24 bg-[#eef7f5]">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
-          {/* Left text */}
           <div>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-              Support Your Body Daily With Tahitian Noni Juice
+              Your Health Is an Investment, Not a Last-Minute Decision
             </h1>
 
             <p className="mt-6 text-lg">
-              A plant-based wellness drink trusted worldwide for immune,
-              digestive, and daily vitality support.
+              Most people only pay attention to their health when something goes wrong.
+              By then, the cost is higher — financially, emotionally, and physically.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -24,44 +23,44 @@ export default function Home() {
                 href="https://partner.co/en-us/shop/product/tahitian-noni"
                 className="bg-green-600 text-white px-6 py-3 rounded"
               >
-                Tips for better well-being
+                Start investing in your health today
               </a>
 
               <a
-                href="https://chat.whatsapp.com/CJ2CmmrXNxUAYV6MgjxSVV"
+                href="https://chat.whatsapp.com/DMyIoIUx6CnKbH0WEBOKW7"
                 className="border border-green-600 text-green-600 px-6 py-3 rounded"
               >
-                Talk to a Brand Partner
+                Read real stories from everyday people
               </a>
             </div>
 
             <p className="mt-6 text-sm text-gray-600">
-              Used by families across multiple countries
+              Your Health Is an Investment, Not an Emergency Expense
             </p>
           </div>
 
-          {/* Right hero image */}
-          <div className="relative w-full h-[340px]">
-            <Image
-              src="/images/pdp-product-image-global-tnj-original-4-desktop.jpg"
-              alt="Tahitian Noni Juice hero product"
-              fill
-              className="object-contain"
-              priority
+          <div className="relative w-full h-[340px] rounded-lg overflow-hidden">
+            <video
+              src="/images/hero-video.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-full object-cover"
             />
           </div>
 
         </div>
       </section>
 
-      {/* SECONDARY PRODUCT VISUAL — mirrors Supliful mid visual */}
+      {/* PREVENTION */}
       <section className="px-4 py-16 md:px-6">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
           <div className="relative w-full h-[300px]">
             <Image
-              src="/images/ptr-home-wellness-edit-desktop-1.jpg"
-              alt="Tahitian Noni Juice bottle"
+              src="/images/hospital-health.png"
+              alt="Prevent hosptial visits"
               fill
               className="object-contain"
             />
@@ -69,130 +68,284 @@ export default function Home() {
 
           <div>
             <h2 className="text-3xl font-bold">
-              Daily Wellness Without Complication
+              Prevention Is Better and Cheaper Than Cure
             </h2>
+
             <p className="mt-4 text-gray-700">
-              Tahitian Noni Juice fits easily into your day.
-              No pills. No complex stacks. Just consistency.
+              You already know this. But most people still wait.
+            </p>
+
+            <ul className="mt-4 space-y-2 text-gray-700 list-disc list-inside">
+              <li>Hospital visits cost more than daily care</li>
+              <li>Medication drains income over time</li>
+              <li>Emergency treatment creates emotional stress</li>
+            </ul>
+
+            <p className="mt-4 text-gray-700">
+              Preventive habits reduce long-term damage before it becomes expensive to fix.
+
+              What would your finances look like if sickness was rare, not routine?
             </p>
           </div>
 
         </div>
       </section>
 
-      {/* HOW IT WORKS — icon-style structure */}
+      {/* HOSPITAL AWARENESS */}
+      <section className="px-4 py-16 md:px-6">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+
+          <div className="relative w-full h-[300px] rounded-lg overflow-hidden">
+            <video
+              src="/images/hospital-awareness.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          <div>
+            <h2 className="text-3xl font-bold">
+              Hospitals were built to treat sickness, not manage daily health
+            </h2>
+
+            <p className="mt-4 text-gray-700">
+              Doctors are overwhelmed.
+              Facilities are stretched thin.
+              Waiting times grow longer every year.
+            </p>
+
+            <p className="mt-4 text-gray-700">
+              This is not about blaming doctors.
+              It is about reality.
+            </p>
+
+            <p className="mt-4 text-gray-700">
+              One doctor sees hundreds of patients
+              Most cases are lifestyle-related
+              Many visits could be prevented
+            </p>
+
+            <p className="mt-4 text-gray-700">
+              When you care for your body daily, hospitals become a last resort, not a frequent stop.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      {/* HOW IT WORKS */}
       <section className="px-4 py-16 md:px-6 bg-gray-50">
         <h2 className="text-3xl font-bold text-center">
-          How It Works
+          No extremes. No perfection. Just consistency.
         </h2>
 
-        <div className="mt-12 max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <p className="mt-4 text-gray-700 text-center">
+          You do not need complex systems.
+          You need workable habits.
+        </p>
 
-          <div>
-            <p className="font-semibold">Drink Daily</p>
-            <p className="mt-2 text-sm text-gray-600">At least 2 fl oz (60 mL) daily</p>
-          </div>
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
 
-          <div>
-            <p className="font-semibold">Stay Consistent</p>
-            <p className="mt-2 text-sm text-gray-600">Results build over time</p>
-          </div>
+          {[
+            { img: "routine-1.png", title: "Drink Daily", desc: "Hydration supports energy" },
+            { img: "routine-3.png", title: "Eat With Awareness", desc: "No restriction, just balance" },
+            { img: "routine-4.png", title: "Rest & Recover", desc: "Sleep supports immunity" },
+            { img: "routine-2.png", title: "Move Gently", desc: "Movement supports circulation" },
+          ].map((item) => (
+            <div key={item.title} className="text-center">
+              <div className="relative w-full h-[220px] rounded-lg overflow-hidden mb-4">
+                <Image
+                  src={`/images/${item.img}`}
+                  alt={item.title}
+                  fill
+                  className="object-cover"
+                />
+              </div>
 
-          <div>
-            <p className="font-semibold">Support Balance</p>
-            <p className="mt-2 text-sm text-gray-600">Immune & digestion</p>
-          </div>
-
-          <div>
-            <p className="font-semibold">Share If You Want</p>
-            <p className="mt-2 text-sm text-gray-600">Optional income</p>
-          </div>
+              <p className="font-semibold">{item.title}</p>
+              <p className="mt-2 text-sm text-gray-600">{item.desc}</p>
+            </div>
+          ))}
 
         </div>
+
+        <p className="mt-6 text-gray-700 text-center">
+          Small actions done daily outperform big actions done once.
+
+          What simple habit could you start today and keep for years?
+        </p>
       </section>
 
-      {/* PRODUCT GRID — mirrors Supliful product chooser */}
+      {/* INSURANCE */}
       <section className="px-4 py-16 md:px-6">
-        <h2 className="text-3xl font-bold text-center">
-          Choose Your Option
-        </h2>
+        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
-        <div className="mt-12 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-
-          <div className="bg-white p-8 rounded shadow text-center">
+          <div className="relative w-full h-[300px]">
             <Image
-              src="/images/2 Bottles of TNJ.jpg"
-              alt="Single bottle"
-              width={180}
-              height={180}
-              className="mx-auto mb-4"
+              src="/images/hospital-health.png"
+              alt="Prevent hosptial visits"
+              fill
+              className="object-contain"
             />
-            <p className="font-semibold">Two Bottles</p>
-            <a
-              href="https://v1.partner.co/s/NDI4MTM2ZjQw"
-              className="mt-4 inline-block text-green-600"
-            >
-              Buy now
-            </a>
           </div>
 
-          <div className="bg-white p-8 rounded shadow border-2 border-green-600 text-center">
-            <Image
-              src="/images/2.Case of TNJ.png"
-              alt="Case of Tahitian Noni Juice"
-              width={180}
-              height={180}
-              className="mx-auto mb-4"
-            />
-            <p className="font-semibold">Case of TNJ</p>
-            <a
-              href="https://v1.partner.co/s/NjZjZWVmYWE3"
-              className="mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded"
-            >
-              Buy a Case
-            </a>
-          </div>
+          <div>
+            <h2 className="text-3xl font-bold">
+              Insurance helps. Prevention protects.
+            </h2>
 
-          <div className="bg-white p-8 rounded shadow text-center">
-            <Image
-              src="/images/Chat with us on Whatsapp.png"
-              alt="Case of Tahitian Noni Juice"
-              width={180}
-              height={180}  
-              className="mx-auto mb-4"
-              />
-            <p className="font-semibold">Need Guidance?</p>
-            <a
-              href="https://chat.whatsapp.com/CJ2CmmrXNxUAYV6MgjxSVV"
-              className="mt-4 inline-block text-green-600"
-            >
-              Join WhatsApp
-            </a>
+            <p className="mt-4 text-gray-700">
+              Insurance does not stop illness.
+              It only helps you pay after damage is done.
+            </p>
+
+            <p className="mt-4 text-gray-700">
+              Preventive health reduces:
+            </p>
+
+            <ul className="mt-4 space-y-2 text-gray-700 list-disc list-inside">
+              <li>Doctor visits</li>
+              <li>Prescriptions</li>
+              <li>Emergency expenses</li>
+              <li>Time lost to sickness</li>
+            </ul>
+
+            <p className="mt-4 text-gray-700">
+              People who invest early spend less later.
+              That is not theory. It is lived experience.
+            </p>
           </div>
 
         </div>
       </section>
 
-      {/* LIFESTYLE / TRUST — mirrors Supliful About section */}
+      {/* BODY AWARENESS */}
       <section className="px-4 py-16 md:px-6 bg-[#eef7f5]">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
           <div>
             <h3 className="text-2xl font-bold">
-              Trusted by Wellness Communities
+              Your body speaks. Most people ignore it.
             </h3>
+
             <p className="mt-4 text-gray-700">
-              Tahitian Noni Juice has been used for generations
-              and fits modern wellness routines worldwide.
+              Fatigue is a message.
+              Poor digestion is a message.
+              Frequent sickness is a message.
+            </p>
+
+            <p className="mt-4 text-gray-700">
+              When you learn your body’s patterns, you act earlier.
+            </p>
+
+            <p className="mt-4 text-gray-700">
+              You rest before burnout
+              You support immunity before breakdown
+              You adjust habits before crisis
+
+              Time lost to sickness
             </p>
           </div>
 
-          <div className="relative w-full h-[280px]">
+          <div className="relative w-full h-[280px] rounded-lg overflow-hidden">
             <Image
-              src="/images/Trusted by welness communities.png"
+              src="/images/body-awareness.png"
               alt="Wellness lifestyle"
               fill
-              className="object-cover rounded-lg"
+              className="object-cover"
+            />
+          </div>
+
+        </div>
+      </section>
+
+      {/* STORIES */}
+      <section className="px-4 py-16 md:px-6">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+
+          <div className="relative w-full h-[300px]">
+            <Image
+              src="/images/health-testimonials.png"
+              alt="Prevent hosptial visits"
+              fill
+              className="object-contain"
+            />
+          </div>
+
+          <div>
+            <h2 className="text-3xl font-bold">
+              We are sharing our stories with you
+            </h2>
+
+            <p className="mt-4 text-gray-700">
+              Not experts on a stage.
+              Not influencers chasing trends.
+            </p>
+
+            <p className="mt-4 text-gray-700">
+              Everyday people choosing:
+
+              Better routines
+              Smarter habits
+              Long-term thinking
+            </p>
+
+            <p className="mt-4 text-gray-700">
+              Health created space for wealth.
+              Clarity created better decisions.
+              Consistency created stability.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      {/* FINAL HERO */}
+      <section className="px-4 py-16 md:px-6 md:py-24 bg-[#eef7f5]">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+
+          <div>
+            <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+              Health Creates Options
+            </h1>
+
+            <p className="mt-6 text-lg">
+              A healthier body gives you more time.
+              More energy gives you more options.
+              More options create a wealthier life.
+            </p>
+
+            <div className="mt-8 flex flex-wrap gap-4">
+              <a
+                href="https://partner.co/en-us/shop/product/tahitian-noni"
+                className="bg-green-600 text-white px-6 py-3 rounded"
+              >
+                Start with one small change today
+              </a>
+
+              <a
+                href="https://chat.whatsapp.com/DMyIoIUx6CnKbH0WEBOKW7"
+                className="border border-green-600 text-green-600 px-6 py-3 rounded"
+              >
+                Talk to someone who has walked this path
+              </a>
+            </div>
+
+            <p className="mt-6 text-sm text-gray-600">
+              Your Health Is an Investment, Not an Emergency Expense
+            </p>
+          </div>
+
+          <div className="relative w-full h-[340px]">
+            <Image
+              src="/images/health-community.png"
+              alt="A Healthy community"
+              fill
+              className="object-contain"
+              priority
             />
           </div>
 
