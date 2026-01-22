@@ -330,15 +330,9 @@ export default function Home() {
               Health Creates Options
             </h1>
 
-            <p className="mt-6 text-lg">
-              A healthier body gives you more time.
-            </p>
-            
-             <p className="mt-6 text-lg">
-              More energy gives you more options.
-             </p>
-            
-             <p className="mt-6 text-lg">
+            <p className="mt-6 text-lg leading-relaxed">
+              A healthier body gives you more time.<br />
+              More energy gives you more options.<br />
               More options create a wealthier life.
             </p>
 
