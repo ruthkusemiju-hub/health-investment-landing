@@ -109,12 +109,12 @@ export default function Home() {
         This is not about blaming doctors. It is about reality.
       </p>
 
-      <p className="mt-4 text-gray-700">
-        One doctor sees hundreds of patients.
-        Most cases are lifestyle-related.
-        Many visits could be prevented.
-      </p>
-
+      <ul className="mt-4 space-y-2 text-gray-700 list-disc list-inside">
+              <li> One doctor sees hundreds of patients./li>
+              <li>Most cases are lifestyle-related.</li>
+              <li> Many visits could be prevented.</li>
+        
+            </ul>
       <p className="mt-4 text-gray-700">
         When you care for your body daily, hospitals become a last resort,
         not a frequent stop.
@@ -153,7 +153,7 @@ export default function Home() {
             { img: "routine-1.png", title: "Drink Enough Water", desc: "Hydration supports energy" },
             { img: "routine-3.png", title: "Eat With Awareness", desc: "No restriction, just balance" },
             { img: "routine-4.png", title: "Rest and Recover", desc: "Sleep supports immunity" },
-            { img: "routine-2.png", title: "Pay attention to energy levels", desc: "Movement supports circulation" },
+            { img: "routine-2.png", title: "Pay attention to Energy levels", desc: "Movement supports circulation" },
           ].map((item) => (
             <div key={item.title} className="text-center">
               <div className="relative w-full h-[220px] rounded-lg overflow-hidden mb-4">
@@ -174,7 +174,9 @@ export default function Home() {
 
         <p className="mt-6 text-gray-700 text-center">
           Small actions done daily outperform big actions done once.
+        </p>
 
+        <p className="mt-6 text-gray-700 text-center">
           What simple habit could you start today and keep for years?
         </p>
       </section>
@@ -185,8 +187,8 @@ export default function Home() {
 
           <div className="relative w-full h-[300px]">
             <Image
-              src="/images/hospital-health.png"
-              alt="Prevent hosptial visits"
+              src="/images/health-costs.png"
+              alt="Prevent hosptial costs"
               fill
               className="object-contain"
             />
@@ -233,7 +235,11 @@ export default function Home() {
 
             <p className="mt-4 text-gray-700">
               Fatigue is a message.
+            </p>
+            <p className="mt-4 text-gray-700">
               Poor digestion is a message.
+            </p>
+            <p className="mt-4 text-gray-700">
               Frequent sickness is a message.
             </p>
 
@@ -243,10 +249,16 @@ export default function Home() {
 
             <p className="mt-4 text-gray-700">
               You rest before burnout
+            </p>
+            <p className="mt-4 text-gray-700">
               You support immunity before breakdown
+            </p>
+            <p className="mt-4 text-gray-700">
               You adjust habits before crisis
+            </p>
 
-              Time lost to sickness
+            <p className="mt-4 text-gray-700">
+              Health is awareness in motion.
             </p>
           </div>
 
@@ -282,20 +294,26 @@ export default function Home() {
 
             <p className="mt-4 text-gray-700">
               Not experts on a stage.
+            </p>
+            <p className="mt-4 text-gray-700">
               Not influencers chasing trends.
             </p>
 
             <p className="mt-4 text-gray-700">
               Everyday people choosing:
-
-              Better routines
-              Smarter habits
-              Long-term thinking
-            </p>
+<ul className="mt-4 space-y-2 text-gray-700 list-disc list-inside">
+              <li>Better routines</li>
+              <li>Smarter habits/li>
+              <li>Long-term thinking</li>
+            </ul>
 
             <p className="mt-4 text-gray-700">
               Health created space for wealth.
+            </p>
+           <p className="mt-4 text-gray-700">
               Clarity created better decisions.
+           </p>
+           <p className="mt-4 text-gray-700">
               Consistency created stability.
             </p>
           </div>
@@ -314,7 +332,11 @@ export default function Home() {
 
             <p className="mt-6 text-lg">
               A healthier body gives you more time.
+            </p>
+             <p className="mt-6 text-lg">
               More energy gives you more options.
+             </p>
+             <p className="mt-6 text-lg">
               More options create a wealthier life.
             </p>
 
