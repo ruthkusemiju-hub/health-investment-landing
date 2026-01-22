@@ -92,55 +92,49 @@ export default function Home() {
       </section>
 
       {/* HOSPITAL AWARENESS */}
-      <section className="px-4 py-16 md:px-6">
-        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+<section className="px-4 py-16 md:px-6">
+  <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
-         <div className="relative w-full h-[340px] rounded-lg overflow-hidden">
-            <video
-              src="https://7pflqsdt4w7xnalr.public.blob.vercel-storage.com/Hero%20Video.mp4"
-              autoPlay
-              muted
-              loop
-              playsInline
-              className="w-full h-full object-cover"
-            />
-          </div>
+    {/* TEXT — LEFT */}
+    <div>
+      <h2 className="text-3xl font-bold">
+        Hospitals were built to treat sickness, not manage daily health
+      </h2>
 
-          <div>
-            <h2 className="text-3xl font-bold">
-              Hospitals were built to treat sickness, not manage daily health
-            </h2>
+      <p className="mt-4 text-gray-700">Doctors are overwhelmed.</p>
+      <p className="mt-4 text-gray-700">Facilities are stretched thin.</p>
+      <p className="mt-4 text-gray-700">Waiting times grow longer every year.</p>
 
-            <p className="mt-4 text-gray-700">
-              Doctors are overwhelmed.
-            </p>
-            
-            <p className="mt-4 text-gray-700">
-              Facilities are stretched thin.
-             </p>
-            
-            <p className="mt-4 text-gray-700">
-              Waiting times grow longer every year.
-            </p>
+      <p className="mt-4 text-gray-700">
+        This is not about blaming doctors. It is about reality.
+      </p>
 
-            <p className="mt-4 text-gray-700">
-              This is not about blaming doctors.
-              It is about reality.
-            </p>
+      <p className="mt-4 text-gray-700">
+        One doctor sees hundreds of patients.
+        Most cases are lifestyle-related.
+        Many visits could be prevented.
+      </p>
 
-            <p className="mt-4 text-gray-700">
-              One doctor sees hundreds of patients
-              Most cases are lifestyle-related
-              Many visits could be prevented
-            </p>
+      <p className="mt-4 text-gray-700">
+        When you care for your body daily, hospitals become a last resort,
+        not a frequent stop.
+      </p>
+    </div>
 
-            <p className="mt-4 text-gray-700">
-              When you care for your body daily, hospitals become a last resort, not a frequent stop.
-            </p>
-          </div>
+    {/* VIDEO — RIGHT */}
+    <div className="relative w-full h-[340px] rounded-lg overflow-hidden">
+      <video
+        src="https://7pflqsdt4w7xnalr.public.blob.vercel-storage.com/Hospitals%20were%20built%20to%20treat%20sickness.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="w-full h-full object-cover"
+      />
+    </div>
 
-        </div>
-      </section>
+  </div>
+</section>
 
       {/* HOW IT WORKS */}
       <section className="px-4 py-16 md:px-6 bg-gray-50">
