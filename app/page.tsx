@@ -150,10 +150,10 @@ export default function Home() {
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
 
           {[
-            { img: "routine-1.png", title: "Drink Daily", desc: "Hydration supports energy" },
+            { img: "routine-1.png", title: "Drink Enough Water", desc: "Hydration supports energy" },
             { img: "routine-3.png", title: "Eat With Awareness", desc: "No restriction, just balance" },
-            { img: "routine-4.png", title: "Rest & Recover", desc: "Sleep supports immunity" },
-            { img: "routine-2.png", title: "Move Gently", desc: "Movement supports circulation" },
+            { img: "routine-4.png", title: "Rest and Recover", desc: "Sleep supports immunity" },
+            { img: "routine-2.png", title: "Pay attention to energy levels", desc: "Movement supports circulation" },
           ].map((item) => (
             <div key={item.title} className="text-center">
               <div className="relative w-full h-[220px] rounded-lg overflow-hidden mb-4">
