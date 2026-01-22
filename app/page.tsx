@@ -41,7 +41,7 @@ export default function Home() {
 
           <div className="relative w-full h-[340px] rounded-lg overflow-hidden">
             <video
-              src="/images/hero-video.mp4"
+              src="https://7pflqsdt4w7xnalr.public.blob.vercel-storage.com/hero-video.mp4"
               autoPlay
               muted
               loop
