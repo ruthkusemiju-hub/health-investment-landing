@@ -41,7 +41,7 @@ export default function Home() {
 
           <div className="relative w-full h-[340px] rounded-lg overflow-hidden">
             <video
-              src="https://7pflqsdt4w7xnalr.public.blob.vercel-storage.com/hero-video.mp4"
+              src="https://7pflqsdt4w7xnalr.public.blob.vercel-storage.com/Hero%20Video.mp4"
               autoPlay
               muted
               loop
@@ -97,7 +97,7 @@ export default function Home() {
 
           <div className="relative w-full h-[300px] rounded-lg overflow-hidden">
             <video
-              src="/images/hospital-awareness.mp4"
+              src="https://7pflqsdt4w7xnalr.public.blob.vercel-storage.com/Hospitals%20were%20built%20to%20treat%20sickness.mp4"
               autoPlay
               muted
               loop
@@ -113,7 +113,9 @@ export default function Home() {
 
             <p className="mt-4 text-gray-700">
               Doctors are overwhelmed.
+            <p className="mt-4 text-gray-700">
               Facilities are stretched thin.
+            <p className="mt-4 text-gray-700">
               Waiting times grow longer every year.
             </p>
 
