@@ -333,9 +333,11 @@ export default function Home() {
             <p className="mt-6 text-lg">
               A healthier body gives you more time.
             </p>
+            
              <p className="mt-6 text-lg">
               More energy gives you more options.
              </p>
+            
              <p className="mt-6 text-lg">
               More options create a wealthier life.
             </p>
