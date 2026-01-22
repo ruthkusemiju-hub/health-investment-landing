@@ -95,9 +95,9 @@ export default function Home() {
       <section className="px-4 py-16 md:px-6">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
-          <div className="relative w-full h-[300px] rounded-lg overflow-hidden">
+         <div className="relative w-full h-[340px] rounded-lg overflow-hidden">
             <video
-              src="https://7pflqsdt4w7xnalr.public.blob.vercel-storage.com/Hospitals%20were%20built%20to%20treat%20sickness.mp4"
+              src="https://7pflqsdt4w7xnalr.public.blob.vercel-storage.com/Hero%20Video.mp4"
               autoPlay
               muted
               loop
@@ -113,8 +113,12 @@ export default function Home() {
 
             <p className="mt-4 text-gray-700">
               Doctors are overwhelmed.
+            </p>
+            
             <p className="mt-4 text-gray-700">
               Facilities are stretched thin.
+             </p>
+            
             <p className="mt-4 text-gray-700">
               Waiting times grow longer every year.
             </p>
