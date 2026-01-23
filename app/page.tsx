@@ -329,13 +329,11 @@ export default function Home() {
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
               Health Creates Options
             </h1>
-
             <ul className="mt-6 space-y-3 text-lg list-disc list-inside">
             <li>A healthier body gives you more time.</li>
             <li>More energy gives you more options.</li>
             <li>More options create a wealthier life.</li>
             </ul>
-
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
