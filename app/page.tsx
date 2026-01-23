@@ -380,7 +380,7 @@ export default function Home() {
 
       {/* FLOATING WHATSAPP */}
       <a
-        href="https://chat.whatsapp.com/CJ2CmmrXNxUAYV6MgjxSVV"
+        href="https://chat.whatsapp.com/DMyIoIUx6CnKbH0WEBOKW7"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 bg-green-600 text-white px-5 py-3 rounded-full shadow-lg text-sm"
