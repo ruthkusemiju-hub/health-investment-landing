@@ -324,16 +324,24 @@ export default function Home() {
       {/* FINAL HERO */}
       <section className="px-4 py-16 md:px-6 md:py-24 bg-[#eef7f5]">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-
-          <div>
-            <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+          
+       <div>
+            <h2 className="text-3xl font-bold">
               Health Creates Options
-            </h1>
-            <ul className="mt-6 space-y-3 text-lg list-disc list-inside">
-            <li>A healthier body gives you more time.</li>
-            <li>More energy gives you more options.</li>
-            <li>More options create a wealthier life.</li>
+            </h2>
+
+            <p className="mt-4 text-gray-700">
+              You already know this. But most people still wait.
+            </p>
+
+            <ul className="mt-4 space-y-2 text-gray-700 list-disc list-inside">
+              <li>A healthier body gives you more time. </li>
+              <li>More energy gives you more options.</li>
+              <li>More options create a wealthier life.</li>
             </ul>
+
+          </div>
+
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
