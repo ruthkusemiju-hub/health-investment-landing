@@ -334,11 +334,12 @@ export default function Home() {
               You already know this. But most people still wait.
             </p>
 
-            <ul className="mt-4 space-y-2 text-gray-700 list-disc list-inside">
-              <li>A healthier body gives you more time. </li>
-              <li>More energy gives you more options.</li>
-              <li>More options create a wealthier life.</li>
-            </ul>
+            <ul className="mt-6 space-y-2 text-lg">
+  <li>A healthier body gives you more time.</li>
+  <li>More energy gives you more options.</li>
+  <li>More options create a wealthier life.</li>
+</ul>
+
 
           </div>
 
