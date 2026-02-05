@@ -32,14 +32,14 @@ export default function Home() {
 
             <div className="mt-10 flex flex-wrap gap-4">
               <a
-                href="https://partner.co/en-us/shop/product/tahitian-noni"
+                href="https://chat.whatsapp.com/DMyIoIUx6CnKbH0WEBOKW7"
                 className="btn-primary"
               >
                 Build daily health stability
               </a>
 
               <a
-                href="https://chat.whatsapp.com/DMyIoIUx6CnKbH0WEBOKW7"
+                href="https://newsletter.wellnessbum.com/"
                 className="btn-secondary"
               >
                 Read real stories
