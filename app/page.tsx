@@ -15,14 +15,20 @@ export default function Home() {
             </h1>
 
             <p className="mt-6 text-lg text-gray-600 leading-relaxed">
-              This page is about daily health habits and personal responsibility.
-              <br/>
-              No products. No financial offers. No medical advice.
-              <br/>
-              Reactive care is the most expensive kind—money, energy, and focus disappear fast.
-              <br/>
-              A calm, daily protocol keeps you ahead of crisis and frees you to pursue bigger goals.
+              <span className="block">
+               This page is about daily health habits and personal responsibility.
+              </span>
+              <span className="block">
+                No products. No financial offers. No medical advice.
+              </span>
+              <span className="block">
+                Reactive care is the most expensive kind—money, energy, and focus disappear fast.
+              </span>
+              <span className="block">
+                A calm, daily protocol keeps you ahead of crisis and frees you to pursue bigger goals.
+              </span>
             </p>
+
 
             <div className="mt-10 flex flex-wrap gap-4">
               <a
