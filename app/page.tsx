@@ -15,6 +15,8 @@ export default function Home() {
             </h1>
 
             <p className="mt-6 text-lg text-gray-600 leading-relaxed">
+              This page is about daily health habits and personal responsibility.
+              No products. No financial offers. No medical advice.
               Reactive care is the most expensive kind—money, energy, and focus disappear fast.
               A calm, daily protocol keeps you ahead of crisis and frees you to pursue bigger goals.
             </p>
@@ -24,7 +26,7 @@ export default function Home() {
                 href="https://partner.co/en-us/shop/product/tahitian-noni"
                 className="btn-primary"
               >
-                Start investing in your health today
+                Build daily health stability
               </a>
 
               <a
@@ -71,7 +73,7 @@ export default function Home() {
           </div>
 
           <div>
-            <span className="subheading">Financial Protection</span>
+            <span className="subheading">Personal Protection</span>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
               Prevention Protects Both Body and Balance Sheet
             </h2>
@@ -81,7 +83,7 @@ export default function Home() {
             </p>
 
             <ul className="mt-6 styled-list text-gray-600">
-              <li>One hospital stay can erase years of disciplined saving.</li>
+              <li>One hospital stay can undo years of steady progress.</li>
               <li>Medication plans quietly erode monthly cash flow.</li>
               <li>Emergency care taxes your family emotionally and logistically.</li>
             </ul>
@@ -214,7 +216,7 @@ export default function Home() {
           </div>
 
           <div>
-            <span className="subheading">Risk Management</span>
+            <span className="subheading">Health Risk Reduction</span>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
               Insurance reimburses. Prevention reduces risk.
             </h2>
@@ -364,7 +366,7 @@ export default function Home() {
                 href="https://chat.whatsapp.com/DMyIoIUx6CnKbH0WEBOKW7"
                 className="btn-secondary"
               >
-                Talk to someone who has walked this path
+                Learn from people who practice preventive health
               </a>
             </div>
 
