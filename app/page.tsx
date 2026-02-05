@@ -365,7 +365,7 @@ export default function Home() {
 
             <div className="mt-10 flex flex-wrap gap-4">
               <a
-                href="https://partner.co/en-us/shop/product/tahitian-noni"
+                href="https://chat.whatsapp.com/DMyIoIUx6CnKbH0WEBOKW7"
                 className="btn-primary"
               >
                 Start with one small change today
